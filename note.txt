@@ -37,6 +37,7 @@ REPL：(Read-eval-print loop，"读取-求值-输出"循环)
     包和npm
         多个模块可以封装成一个包
         npm是nodejs默认的模块管理器，可以以包的方式通过npm安装、卸载、发布包
+        setting中查找npm设置关于node的智能感知
 
     如何初始化一个项目
         mkdir node

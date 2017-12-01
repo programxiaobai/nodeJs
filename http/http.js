@@ -1,4 +1,4 @@
-var http = require('http');
+var http = require('http/http');
 
 
 http.createServer(function (req, res) {
@@ -10,7 +10,7 @@ http.createServer(function (req, res) {
     res.statusCode = 404;
     res.setHeader('Content-type', 'text/html;charset=utf-8');
     res.setHeader('name', 'a');
-    res.write(new Date().toString());
+    //res.write(new Date().toString());
     res.end();
 }).listen(8080, "localhost");
 

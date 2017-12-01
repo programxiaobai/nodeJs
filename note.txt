@@ -1,0 +1,64 @@
+什么是node.js
+    node.js是js语言的服务器运行环境
+    node提供大量工具库，使js可以调用操作系统级别的API
+    node内部采用google V8引擎，作用js语言解释器，速度快
+    node.js是一个基于事件驱动和异步IO的服务端js环境
+
+
+gitHub的用法
+
+    1 fork项目：提交到别人的项目中(自己提交自己的不需要)
+    2 git clone https://github.com/programxiaobai/nodeJs.git  将项目下载到本地
+    3 进入这个文件夹
+    4 添加要提交的文件
+    5 git add -A
+    6 git commit -m "注释"
+    7 git push origin master 向服务器进行推送(需要输入git用户名和密码)，修改提交到自己git上
+    8 发起一个Pull request(从自己项目提交到目标项目)
+    9 目标项目可以合并提交的修改
+
+    环境变量中包含node可执行文件目录，可在命令行模式下运行
+
+REPL：(Read-eval-print loop，"读取-求值-输出"循环)
+    控制台输入node，进入REPL环境，可以直接运行各种js语句(和浏览器F12控制台相似)
+    特殊变量下划线_表示上一个命令的返回结果
+    .help 帮助命令 break clear exit load save  .log文件：保存执行过的命令 cat读取
+
+
+    每个js文件都是一个模块，模块内部声明的变量都是私有变量，外部无法访问
+
+    require:加载模块(文件)，可引用exports的属性(方法)
+    exports:向外界暴露属性(方法)
+
+    模块：
+        核心模块：http fs path
+        文件模块：自己编写的
+        第三方模块：npm下载引入
+    包和npm
+        多个模块可以封装成一个包
+        npm是nodejs默认的模块管理器，可以以包的方式通过npm安装、卸载、发布包
+
+    如何初始化一个项目
+        mkdir node
+        cd node
+        npm init 初始化项目描述文件
+    安装第三方模块
+        npm install (-g) [package name]
+
+    全局对象global
+    控制台对象console：log info error warn time timeEnd
+
+HTTP
+    服务器：能在特定(IP)服务器的特定端口上监听客户端的请求，并根据请求路径返回相应结果
+    客户端：只要能向特定(IP)服务器的特定端口发起请求并接受响应
+    之间传递的数据：静态，动态
+    http：协议+数据格式的交流体系
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,7 @@
+命令行DOS
+Linux shell ruby python scala node socketIO
+
+Git是一种技术，可用于版本管理；GitHub是一个使用Git的平台
+Git Bash -> cygwin下git service：gitolite
+    gitbash宿主目录 /home/adminstrator/.ssh/
+    cygwin  /home/adminxxxx/.ssh/
